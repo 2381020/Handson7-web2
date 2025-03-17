@@ -1,4 +1,6 @@
-export class CreateSongDTO {
-  title: string;
-  artist: string;
-}
+// export class CreateSongDTO {
+//   @isString()
+//   title: string;
+//   @isString()
+//   artist: string;
+// }
