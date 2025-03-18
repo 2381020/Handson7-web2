@@ -1,6 +1,8 @@
-// export class CreateSongDTO {
-//   @isString()
-//   title: string;
-//   @isString()
-//   artist: string;
-// }
+import { IsString } from "class-validator";
+
+export class CreateSongDTO {
+  @IsString()
+  title: string;
+  @IsString()
+  artist: string;
+}
